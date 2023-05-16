@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ninja.Views.Chat.MessagesPage"
              Title="Messages">
-    <CollectionView SelectionMode="Single" SelectionChanged="CollectionView_SelectionChanged">
+    <CollectionView SelectionMode="Single" >
         <CollectionView.ItemsSource>
             <x:Array Type="{x:Type x:String}">
                 <x:String> Chat 1</x:String>

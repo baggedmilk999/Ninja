@@ -8,7 +8,7 @@
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:ChatPage}"
+        ContentTemplate="{DataTemplate local:MessagesPage}"
         Route="MainPage" />
 
 </Shell>
