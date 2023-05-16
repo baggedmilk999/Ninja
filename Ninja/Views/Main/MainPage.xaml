@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ninja.Views.Main.MainPage"
+       xmlns:home="clr-namespace:Ninja.Views.Home"
+       xmlns:chat="clr-namespace:Ninja.Views.Chat"
+       xmlns:account="clr-namespace:Ninja.Views.Account">
+            
+    <TabBar>
+        <Tab Title="Home" Icon="house_solid.png">
+            <ShellContent ContentTemplate="{DataTemplate home:HomePage}"/>
+        </Tab>
+        <Tab Title="Chat" Icon="message_solid.png">
+            <ShellContent ContentTemplate="{DataTemplate chat:MessagesPage}"/>
+        </Tab>
+        <Tab Title="Settings" Icon="gear_solid.png">
+            <ShellContent ContentTemplate="{DataTemplate account:SettingsPage}"/>
+        </Tab>
+    </TabBar>
+
+    
+
+</Shell>
